@@ -1,0 +1,17 @@
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+}
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal; color: aquamarine;
+}
+main h3 {font-size: larger; color: blue;}
+main p {
+    font-size: larger;color: blueviolet;
+}
+.blue { 
+    color: brown;
+}
+.bigger {
+    color: cadetblue;
+}
