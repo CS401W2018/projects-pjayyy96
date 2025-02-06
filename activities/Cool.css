@@ -1,0 +1,24 @@
+header h1 {
+    color: brown;
+    font-style: inherit;
+}
+header p {
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-color: burlywood;
+}
+header hr {
+    color: burlywood;
+}
+main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cornsilk;
+}
+main h3 {
+    color: chocolate;
+}
+footer {
+    color: crimson;
+}

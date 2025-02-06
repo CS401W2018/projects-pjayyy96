@@ -1,0 +1,30 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#c46e66;
+}
+main {
+    background-color:#f9eded ;
+}
+.interest {
+    color:#103f69;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+    color: #F4F4F4;
+}
+#selector {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+footer {
+    font-size: large;
+}
+#Highlight {
+    color: #000000;
+}
+#Highlight1 {
+    color: #887e40;
+}
+.Last {
+    background-color: #fffde9;
+}
