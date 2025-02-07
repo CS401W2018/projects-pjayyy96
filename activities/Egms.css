@@ -1,0 +1,12 @@
+.Question {
+    font-size: large;
+    font-weight: bold;
+}
+.Answer {
+    font-size: large;
+    font-weight: 400;
+}
+.Pic {
+    width: 320px;
+    height: 400px;
+}
