@@ -1,0 +1,24 @@
+header {
+    text-align: center;
+    color: rgb(15, 91, 59);
+}
+div {
+    background-image: url('Oceantitle.jpg');
+}
+body {
+    background-image: url('Heaven.jpg');
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main {
+    text-align: center;
+    background-image: url('heaven1.jpg');
+}
+nav {
+    color: chocolate;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.defe {
+    background-color: aliceblue;
+}
