@@ -1,0 +1,119 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+    color: rgb(251, 255, 0);
+}
+.mainly {
+    font-family: sans-serif;
+    text-align: left;
+    margin: 30px auto;
+    background-image: url("cloud.png");
+    padding-left: 50px;
+}
+#first {
+    font-size: 60px;
+    color: rgb(255, 0, 0);
+    text-shadow: 5px 5px #b96666;
+}
+body header {
+    font-family: sans-serif;
+    border: thin #ff0000;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    margin-left: 215px;
+    margin-right: 215px;
+}
+/* .mainly figure {
+    float: right;
+    width: 50px;
+    position: absolute;
+    right: 500px;
+    top: 150px;
+} */
+#box {
+    background-color: coral;
+    text-align: center;
+    margin: auto;
+    width: 1200px;
+    height: 1070px;
+    border: solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px #798074;
+}
+.topic {
+    float: left;
+}
+#text {
+    /* float: right; */
+    text-align: left;
+    padding-left: 600px;
+    padding-right: 20px;
+    padding-top: 300px;
+    font-size: 15px;
+    font-weight: 100px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    /* background-color: antiquewhite; */
+}
+#text0 {
+    /* float: right; */
+    text-align: left;
+    color: darkseagreen;
+    /* font-size: both; */
+    padding-left: 20px;
+    padding-right: 600px;
+    padding-top: 300px;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 100px;
+    text-shadow: 2px 2px #798074;
+
+}
+#moving {
+    position: fixed;
+    top: 40px;
+    left: 500px;
+    width: 0%
+}
+.skill img {
+    width: 450px;
+    float: right;
+    /* padding-bottom: 100px; */
+    /* margin-left: 0px; */
+    /* background-color: #646392; */
+}
+#box nav span {
+    background-color: bisque;
+    padding: 10px 20px;
+    font-size: both;
+    color: #ff0000;
+}
+#box nav span:hover {
+    color: cadetblue;
+    background-color: aliceblue;
+    text-decoration: underline;
+}
+#box nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 0);
+    color: bisque;
+    /* text-decoration: none; */
+    /* margin-left: 450px; */
+    /* margin-right: 450px; */
+    /* float: left; */
+}
+#box nav a:hover {
+    color: cadetblue;
+    background-color: aliceblue;
+    text-decoration: underline;
+}
+.clear {
+    clear: both;
+}
+footer {
+    text-align: center;
+    color: #ff0000;
+}
