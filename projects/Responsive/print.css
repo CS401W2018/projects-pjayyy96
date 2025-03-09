@@ -1,0 +1,141 @@
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+}
+
+body, html {
+    margin: 0;
+}
+
+
+header , nav {
+    text-align: center;
+    background-color: rgb(70, 70, 70);
+    color: #daebf9;
+}
+
+header {
+    padding: 10px;
+}
+
+nav {
+    display: none;
+}
+
+nav a {
+    color: #daebf9;
+    display: none;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    background-color: rgb(108, 108, 92);
+    padding: 10px 110px;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    width: 30%;
+    margin: 0px;
+    padding-left: 20px; 
+    color: #fff;
+}
+
+.container aside {
+    background-color: rgb(82, 82, 82);
+    margin: 10px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 230%;
+    margin: 0px;
+    padding: 0px; 
+    color: #fff;
+}
+
+#last {
+    width: 200%;
+}
+
+.container1 p {
+    padding: 10px;
+    text-align: center;
+}
+
+.card {
+    justify-items: center;
+    margin: 10px auto;
+    background-color: rgb(127, 127, 239);
+    border-radius: solid #fff;
+    border: thin solid #000;
+    box-shadow: 3px 3px 3px rgba(40, 40 ,40 0.5);
+}
+
+.card:hover {
+    background-color: #4d5050;
+    color: rgb(255, 255, 255);
+}
+
+
+aside .text {
+    padding: 10px;
+}
+
+.container h1 {
+    padding-left: 20px;
+}
+
+.container img {
+    width: 200px;
+    margin: 0px auto;
+}
+
+.card img {
+    width: 100%;
+}
+
+main h1 {
+    color: #000;
+}
+
+nav a:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+@media only screen and (max-width: 900px){
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        border-bottom: thin solid #fff;
+        margin: 0px;
+    }
+
+    .container {
+        width: 100%;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .container1  {
+        width: 100%;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+  
+}
+
+footer {
+    display: none;
+    /* justify-content: flex-end; */
+}
