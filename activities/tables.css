@@ -1,0 +1,55 @@
+.schedule {
+    border: 1px solid #000;
+    box-shadow: 7px 7px 2px rgba(30,30,30,0.5);
+    caption-side: top;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.schedule th, .schedule td {
+    border: thin solid #000;
+    /* background-color: rgb(167, 153, 255); */
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.schedule thead tr {
+    background-color: cadetblue;
+    color: azure;
+}
+
+.schedule tfoot tr {
+    background-color: cadetblue;
+    color: azure;
+}
+
+.headline th{
+    background-color: burlywood;
+    color: cornflowerblue;
+}
+
+.schedule tr {
+    background-color: antiquewhite;
+}
+
+.schedule tbody tr:nth-child(5) {
+    background-color: aquamarine;
+}
+
+main h1:first-letter {
+    font-size: 50px;
+    color: blue;
+}
+
+main h2:first-letter {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+
+main p:first-letter {
+    font-size: 30px;
+    color: rgb(9, 255, 0);
+}

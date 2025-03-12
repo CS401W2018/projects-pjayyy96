@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <link rel="stylesheet" href="tables.css">
+</head>
+<body>
+    <header>
+        <h1>Tables</h1>
+    </header>
+<main>
+    <table class="schedule">
+        <caption>Course schedule</caption>
+            <thead>
+                <tr>
+                    <td>Department</td>
+                    <td>Number</td>
+                    <td>Time</td>
+                    <td>Location</td>
+                    <td>Credits</td>
+                </tr>
+            </thead>
+        <tbody>
+            <tr class="headline">
+                <th colspan="5">Winter 2025</th>
+            </tr>
+            <tr>
+                <td>CS</td>
+                <td rowspan="2">201</td>
+                <td>2:00 - 2:50 PM</td>
+                <td>P1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>CS</td>
+
+                <td>3:00 - 3:50 PM</td>
+                <td>P1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>CS</td>
+                <td>140</td>
+                <td>10:00 - 11:50 AM</td>
+                <td>P2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>CS</td>
+                <td>140</td>
+                <td>12:00 - 12:50 PM</td>
+                <td>P3</td>
+                <td>3</td>
+            </tr>
+            <tr class="headline">
+                <th colspan="5">Spring 2025</th>
+            </tr>
+            <tr>
+                <td>CS</td>
+                <td>320</td>
+                <td>10:00 - 10:50 AM</td>
+                <td>P1</td>
+                <td>3</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <th id="Total-Credits" colspan="4">Total Credits</th>
+                    <td headers="Total-Credits">15</td>
+                </tr>
+            </tfoot>   
+        </tbody>
+    </table>
+    <h1>Questions!</h1>
+        <h2>Why don't we use the border attribute?</h2>
+            <p>The border attribute for HTML tables is deprecated in favor of CSS styling, and a way to control borders and other visual aspects of web pages. Without border, without line in the table.</p>
+        <h2>What is the easiest way to color every other row a different color?</h2>
+            <ul>
+                <li>Select the table or an element in it.</li>
+                <li>Click Inspector in the toolbar and then click the Table inspector button.</li>
+                <li>Select Alternating Row Color.</li>
+                <li>Click the adjacent color well to open the Colors window, and then choose a color for the alternate rows.</li>
+            </ul>
+    </main> 
+    <footer>
+        <p>&copy; Phitchayut Choedchaiyaphum 2025</p>
+    </footer>
+</body>
+</html>
