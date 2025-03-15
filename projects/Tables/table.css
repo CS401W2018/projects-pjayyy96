@@ -1,0 +1,110 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    background-color: #0089a4;
+}
+
+
+.team {
+    border: 3px solid #000;
+    box-shadow: 7px 7px 2px rgba(30,30,30,0.5);
+    caption-side: top;
+    border-spacing: 0;
+    font-size: 35px;
+    height: 100%;
+    background-color: rgb(94, 97, 122);
+    justify-self: center;
+}
+
+.team th, .team td {
+    border: thin solid #000;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.team thead tr:nth-child(1) {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+.team tbody tr:nth-child(1) {
+    background-color: rgb(251, 255, 0);
+}
+.team tbody tr:nth-child(even) {
+    background-color: rgb(166, 167, 219);
+}
+.team tbody tr:nth-child(5) {
+    background-color: rgb(251, 255, 0);
+}
+.team tbody tr:nth-child(13) {
+    background-color: rgb(251, 255, 0);
+}
+.team tfoot tr:nth-child(1) {
+    background-color: rgb(255, 0, 0);
+}
+.team tfoot tr:nth-child(2) {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+.Scores {
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 10, 178);
+}
+.Scores1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 178, 32);
+}
+.Scores2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(178, 10, 10);
+}
+.nameteam {
+    color: rgb(14, 0, 120);
+}
+.clear {
+    clear: none;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(192, 213, 217);
+    width: 1190px;
+    justify-self: center;
+    font-size: 20px;
+}
+nav a {
+    display: block;
+    padding: 20px 89px;
+}
+nav a:hover {
+    background-color: #0089a4;
+    color: rgb(255, 255, 255);
+}
+
+#container {
+    display: flex;
+    justify-content: row-reverse;
+    text-wrap: wrap;
+    width: 80%;
+    margin: 0;
+    padding-left: 155px; 
+}
+
+li {
+    color: aliceblue;
+}
+
+aside h1 { 
+    color: #000;
+    background-color: aliceblue;
+}
+
+#container aside {
+    background-color: rgb(82, 82, 82);
+    margin: 10px;
+}
+
+.moveside {
+    order: 2;
+
+}
