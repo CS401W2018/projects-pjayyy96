@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Form</h1>
+    </header>
+    <nav>
+        <a href="#">Web</a>
+        <a href="#">Home</a>
+        <a href="#">Link</a>
+        <a href="#">More</a>
+    </nav><hr>
+    <div class="clear"></div>
+    <main>
+        <form action="processing.html" method="get">
+            <div action="form-row">
+                First Name: <input type="text" name="firstname" placeholder="Input 3-8 words">
+            </div>
+            <div action="form-row">
+                Email: <input type="email" name="Email" id="email" placeholder="type your email here">
+            </div>    
+            <div action="form-row">
+                Grade: <input type="text" name="Grade" placeholder="type here">
+            </div> 
+            <div action="form-row">
+                Student ID: <input type="text" name="ID" id="text" placeholder="5-10 words, at least 1 of 1#*+">
+            </div>  
+            <div action="form-row">
+                Password: <input type="password" name="password" placeholder="password 8-10">
+            </div>   
+            <input type="submit">
+        </form><hr>
+        <form action="processing.html" method="post">
+            <div>
+                <label for="fullname">Full name:</label>
+                <input type="text" name="firstname" placeholder="type here!">
+            </div>
+            <div>
+                <label for="Email">Email:</label>
+                <input type="email" name="Email" id="email">
+            </div>    
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" name="password" id="pass">
+            </div>   
+            <div>
+                <label for="state">State:</label>
+                <select name="state" id="state">
+                    <option value="blank"></option>
+                    <option value="CO">Colorado</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="UT">Utah</option>
+                    <option value="THA">Thailand</option>
+
+                </select>
+            </div>  
+            <div>
+                <label for="year">Year in School</label>
+                <input type="checkbox" name="year" value="Freshman">Freshman
+                <input type="radio" name="year" value="Sophmore">Sophmore
+                
+            </div> 
+            <div>
+                <label for="date">Graduate:</label>
+                <input type="date" name="year">
+            </div>
+            <input type="submit">
+        </form>
+        <hr>
+            <h1>Engagment questions!</h1>
+                <h2>The form tag has an "action" attribute. What does it do?</h2>
+                    <p>The action attribute defines the action to be performed when the form is submitted. Usually, the form data is sent to a file on the server when the user clicks on the submit button.</p>
+                <h2>The form tag has a "method" attribute. What does it do?</h2>
+                    <p>The method attribute in an HTML (form) tag specifies the HTTP method used to send form data to the server, either as URL variables (with method="get") or as an HTTP post transaction (with method="post")</p>
+                <h2>What is the difference between a "POST" and a "GET"?</h2>
+                    <p>We use GET when you want to retrieve data and use POST when you want to submit data. GET is often used for simple data retrieval, like fetching a web page, while POST is used for more complex operations, such as submitting a form or uploading a file.</p>
+    </main><hr>
+    <footer>
+        <p>&copy; Phitchayut Choedchaiyaphum 2025</p>
+    </footer>
+</body>
+</html>
