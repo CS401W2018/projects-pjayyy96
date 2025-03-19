@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Form 2</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="get">
+            <fieldset>
+                <legend>User info.</legend>
+                <div class="form-row">
+                    <label for="text">Full Name:</label>
+                    <input type="text" name="fullname" placeholder="Full name">
+                </div>
+                <div class="form-row">
+                    <label for="text">Email:</label>
+                    <input type="email" name="Email" id="email" placeholder="type your email here">
+                </div>
+                <div class="form-row">
+                    <label for="text">Password:</label>
+                    <input type="password" name="password" placeholder="password 8-10">
+                </div>   
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value="blank"></option>
+                        <option value="CO">Colorado</option>
+                        <option value="HI" selected>Hawaii</option>
+                        <option value="UT">Utah</option>
+                        <option value="THA">Thailand</option>
+                    </select>
+                </div>  
+                <div class="radio-row">
+                    <div class="form-spacer">Year in School</div>
+                    <!-- <input type="checkbox" name="year" value="Freshman">Freshman -->
+                    <input type="radio" name="year" value="Freshman" checked>Freshman
+                    <input type="radio" name="year" value="Sophmore">Sophmore
+                </div> 
+                <div class="radio-row">
+                    <label><input type="checkbox" name="agree" id="agree" checked>Remember Me</label>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-spacer"></div>
+                    <input type="submit">
+                </div>
+            </fieldset>
+    </main>
+        <div>
+            <h1>What are different ways to style your form?</h1>
+                <p>ฺBy using the (input, textarea, and label). And applying properties for color, background, borders, padding, margin, and more.</p>
+            <h1>Why does the professor like to use flex?</h1>
+                <p>Because we could apply it into the phone or devices that has small screen.</p>
+        </div><hr>
+    <footer>
+        <p>&copy; Phitchayut Choedchaiyaphum 2025</p>
+    </footer>
+</body>
+</html>

@@ -1,3 +1,74 @@
 .clear {
     clear: none;
 }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.radio-row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
+
+.form-spacer {
+    width: 150px;
+    text-align: right;
+}
+
+fieldset {
+    background-color: aquamarine;
+}
+
+legend {
+    color: rgb(132, 0, 255);
+    font-size: x-large;
+    font: bold;
+    padding: 5px;
+}
+
+.form-row input:not([type="submit"]) {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(193, 193, 193);
+}
+
+.form-row input:not([type="submit"]):focus {
+    background-color: rgb(28, 194, 203);
+}
+
+.form-row input[type="submit"] {
+    padding: 10px;
+    background-color: coral;
+    color: aliceblue;
+    font-size: 60px;
+}
+
+.form-row input[type="submit"]:hover {
+    background-color: rgb(243, 247, 0);
+    color: rgb(0, 136, 255);
+}
+
+@media ONLY screen and (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+    }
+    .form-row label {
+        text-align: left;
+    }
+    .form-spacer {
+        text-align: left;
+    }
+}
