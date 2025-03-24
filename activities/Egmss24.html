@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Form 2</h1>
+        <h1>Form 3</h1>
     </header>
     <main>
         <form action="processing.html" method="get">
@@ -56,17 +56,35 @@
             </fieldset>
     </main>
         <div>
-            <h1>What are different ways to style your form?</h1>
-                <p>ฺBy using the (input, textarea, and label). And applying properties for color, background, borders, padding, margin, and more.</p>
-            <h1>Why does the professor like to use flex?</h1>
-                <p>Because we could apply it into the phone or devices that has small screen.</p>
-        </div><hr>
+            <h1>What is JavaScript? How did it get its name?</h1>
+                <p>ฺJava script is computer language, that was invented in 19s. The example of big company that use js, is microsoft and etc. Netscape changed the name to JavaScript so they could position it as a companion for the Java language, a product of their partner, Sun Microsystems.</p>
+            <h1>What are the two ways you can run JavaScript?</h1>
+                <p>We can run JavaScript code in any browser's console (1st run) or by embedding it within an HTML file using the -script- tag.(2nd run) Every modern browser has built-in developer tools that allow anyone to write and run JavaScript code directly in the console.</p>
+            <h1>What was the most popular front-end js library?</h1>
+                <p>According to GitHub, React (built by Facebook) is the most popular frontend JavaScript framework that developers use to build exquisite user interfaces.</p>
+            <h1>What is the most popular front-end js library today?</h1>
+                <p>React and jQuery are the most widely used frontend frameworks today in the internet.</p>
+            </div><hr>
     <footer>
         <p>&copy; Phitchayut Choedchaiyaphum 2025</p>
     </footer>
     <script>
         document.getElementById('myForm').addEventListener('submit',function(event){
+            event.preventDefault(); ///The prevent defult is to help you stay in the initial page
             alert("Form Submitted");
+
+            const fullname = document.getElementById('fullname').value;        
+            const Email = document.getElementById('email').value;
+            const pass = document.getElementById('pass').value;
+
+            const formData = {
+                fullname: fullname,
+                Email: Email,
+                password: pass
+            };
+
+            console.log(formData); ///The console tag going to pop up on the page and show what is your update
+
         });
     </script>
 </body>
