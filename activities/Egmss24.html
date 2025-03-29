@@ -72,19 +72,31 @@
         document.getElementById('myForm').addEventListener('submit',function(event){
             event.preventDefault(); ///The prevent defult is to help you stay in the initial page
             alert("Form Submitted");
-
             const fullname = document.getElementById('fullname').value;        
             const Email = document.getElementById('email').value;
-            const pass = document.getElementById('pass').value;
+            // const pass = document.getElementById('pass').value;
+            // if (!firstName )
 
             const formData = {
                 fullname: fullname,
                 Email: Email,
-                password: pass
+                password: document.getElementById('password').value,
+                remember: document.getElementById('remember').checked,
+                state: document.getElementById('state').value,
             };
 
             console.log(formData); ///The console tag going to pop up on the page and show what is your update
-
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET","submit.json", true);
+            xhr.setRequestHeader("Content-Type","application/json; charset-UTF-8");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    alert('Form submitted successfully.');
+                } else if (xhr.readyState === 4) {
+                    alert('Error submitting form.');
+                }
+            };
+            xhr.send(JSON.stringify(formData));
         });
     </script>
 </body>
