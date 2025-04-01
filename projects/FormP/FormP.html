@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="FromP.css">
+</head>
+<body>
+    <header>
+        <h1>Form Project</h1>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Your Information.</legend>
+                <form action="processing.html" method="get" id="myForm">
+                    First Name: <input type= "text" id= "firstName" name="first" placeholder="First Name"><br>
+                    Last Name: <input type="text" id="lastName" name="last" placeholder="Last Name"><br>
+                    Password: <input type="password" name= "pass" id="password"><br>
+                    <input type="checkbox" name= "remember" checked id="remember"> Remember Me<br>
+                    Age: <input type="number" name= "age" id="age"><br>
+                    class: 
+                    <input type="radio" value="freshman" checked>Freshman<br> 
+                    <input type= "radio" value="sophomore">Sophomore<br>
+                    <input type="radio" value="junior">Junior<br> 
+                    <input type="radio" value="senior">Senior<br>
+                    State: <select name="state" id="state">
+                        <option value="blank" disabled selected>Make Selection</option>
+                        <option value="hi" selected>Hawaii</option>
+                        <option value="ca">California</option>
+                        <option value="co">Colorado</option>
+                        <option value="ut">Utah</option>
+                    </select><br>
+                    <div class="form-row">
+                        <input type= "submit">
+                    </div>
+                </form>
+        </fieldset>
+    </main> 
+    <footer>
+        <p>&copy; 2025 Phitchayut Choedchaiyaphum</p>
+    </footer>
+    <script src="FormP.js"></script>
+</body>
+</html>

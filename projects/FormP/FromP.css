@@ -1,0 +1,31 @@
+body {
+    background-color: bisque;
+    text-align: center;
+}
+main {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.form-row input:not([type="submit"]) {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(193, 193, 193);
+}
+
+.form-row input:not([type="submit"]):focus {
+    background-color: rgb(28, 194, 203);
+}
+
+.form-row input[type="submit"] {
+    margin: 10px;
+    padding: 10px;
+    background-color: coral;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+.form-row input[type="submit"]:hover {
+    background-color: rgb(243, 247, 0);
+    color: rgb(255, 0, 0);
+}
