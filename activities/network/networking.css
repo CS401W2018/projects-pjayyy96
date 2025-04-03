@@ -4,15 +4,25 @@ body {
     background-color: burlywood;
 }
 
-header h1 {
-    margin: 0px;
-    background-color: rgb(248, 248, 248);
-    text-align: center;
+.head {
+    background-color: azure;
+    border-radius: 10px;
+    margin: 30px;
 }
 
-header h2 {
+.head nav {
     text-align: center;
-    background-color: rgb(255, 145, 0);
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+.head nav a {
+    color: rgb(255, 0, 0);
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(12, 172, 17);
 }
 
 .bigbox {
@@ -20,19 +30,30 @@ header h2 {
     flex-wrap: wrap;
 }
 
+.card img {
+    border-radius: 20px;
+}
+
 .card {
-    
+    font-size: 15px;
+    border-radius:  20px;
     text-align: center;
     border: thin solid #000;
     box-shadow: 3px 3px 3px rgba(40, 40 ,40 0.5);
-    width: 300px;
+    width: 220px;
     justify-items: center;
     margin: 5px auto;
-    background-color: rgb(204, 255, 0);
+    background-color: rgb(182, 251, 148);
+}
+
+.card figure:hover {
+    width: 220px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .card figure {
-    margin: 0px;
+    margin: 15px;
 }
 
 .card img {
