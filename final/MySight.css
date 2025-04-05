@@ -91,3 +91,60 @@ legend {
     background-color: aliceblue;
     color: cadetblue;
 }
+
+.Artist caption {
+    color: brown;
+}
+
+.Artist {
+    justify-self: center;
+    border: 30px solid #000;
+    background-color: aliceblue;
+    box-shadow: 9px 6px 7px rgba(255, 0, 0, 0.5);
+    caption-side: top;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.Artist th, .Artist td {
+    border: thin solid #000;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.Artist thead tr {
+    background-color: brown;
+    color: rgb(255, 255, 255);
+}
+
+.headline th{
+    background-color: burlywood;
+    color: cadetblue;
+}
+
+#rate {
+    color: crimson;
+}
+
+#non-movies {
+    color: aliceblue;
+}
+
+.Artist tr {
+    background-color: rgb(239, 173, 86);
+}
+
+footer {
+    color: aliceblue;
+}
+
+.help {
+    background-image: url("help.png");
+    color: brown;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
