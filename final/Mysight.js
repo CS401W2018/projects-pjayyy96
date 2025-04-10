@@ -6,9 +6,6 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     const confirmpassword = document.getElementById('confirmedpass').value;
     const age = document.getElementById('age').value;
 
-    const search = document.getElementById('search').value;
-
-
     if (!Username || !Username) {
         alert('Please provide fullname.');
         return;
@@ -40,16 +37,16 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         pass: password,
         confirmedpass: confirmpassword,
         age: age,
-
-        search: search
     }
 
     const xhr = new XMLHttpRequest();
-    xhr.open ("GET", "Mysight.json", true);
+    xhr.open ("get", "Mysight.json", true);
     xhr.setRequestHeader ("Content-Type", "application/json;charset=UTF-8");
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
-            alert('Form submitted successfully.');
+            const response = JSON.parse(xhr.responseText);
+            document.getElementById("message").innerHTML = response.message;
+            document.getElementById("myForm").innerHTML = "";
         } else if (xhr.readyState === 4) {
             alert('Error submitting form.');
         }        
