@@ -39,11 +39,13 @@ nav span {
 
 #top nav span:hover {
     background-color: aliceblue;
+    transform: rotate(3deg);
 }
 
 #top nav a:hover {
     color: cadetblue;
     background-color: aliceblue;
+    transform: rotate(3deg);
 }
 
 .form-row {
@@ -67,6 +69,107 @@ nav span {
 
 .form-row1 input {
     width: 50%;
+}
+
+.collection-coloum {
+    padding: 20px;
+}
+
+.collection-coloum1 fieldset{
+    background-color: brown;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.collection-coloum1 {
+    color: rgb(255, 255, 255);
+}
+
+.head-cl1 {
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.collection-coloum1 a :hover{
+    transform: rotate(350deg);
+}
+
+.collection-coloum1 :hover{
+    background-color: #770012;
+}
+
+#thebox4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: rgb(72, 200, 255);
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    border: solid #000;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 10px 10px #798074;
+}
+
+
+.listcate3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: thick solid #ff0000;
+    box-shadow: 3px 3px 3px rgba(40, 40 ,40 0.5);
+    width: 200px;
+    height: auto;
+    justify-items: center;
+    margin-top: 0;
+    padding: 20px;
+    background-color: rgb(255, 230, 0);
+    color: cadetblue;
+    border-radius: 60px;
+}
+
+aside :hover {
+    background-color: rgb(247, 247, 65);
+}
+
+.listcate3 img {
+    border-radius: 100%;
+}
+
+.listcate3 a :hover {
+    padding: 4px;
+    background-color: #770012;
+}
+
+#thebox3 {
+    display: flex;
+    background-color: rgb(255, 72, 231);
+    text-align: center;
+    margin: auto;
+    width: auto;
+    height: auto;
+    border: solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px #798074;
+}
+
+
+
+.head-cl {
+    text-align: left;
+    margin: 20px;
+    background-color: rgb(255, 201, 238);
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.head-cl h1 {
+    font-size: 50px;
 }
 
 #thebox2 {
@@ -94,7 +197,7 @@ nav span {
 }
 
 #thebox1 {
-    background-color: coral;
+    background-color: darkseagreen;
     text-align: center;
     margin: auto;
     width: 400px;
@@ -185,11 +288,6 @@ legend {
     color: rgb(255, 255, 255);
 }
 
-.headline th{
-    background-color: burlywood;
-    color: cadetblue;
-}
-
 #rate {
     color: crimson;
 }
@@ -212,7 +310,26 @@ footer {
     text-align: center;
     margin-left: 300px;
     margin-right: 300px;
-    padding: 80px;
+    padding: 50px;
+}
+
+#help1 {
+    color: brown;
+    background-color: #770012;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    padding: 40px;
+    width: 800px;
+    height: auto;
+    border-radius: 20px;
+}
+
+div .help-detail {
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 25px;
 }
 
 #new-listcate {
@@ -257,38 +374,167 @@ footer {
     border: thin solid #000;
     box-shadow: 3px 3px 3px rgba(40, 40 ,40 0.5);
     width: 300px;
+    height: 450px;
     justify-items: center;
     margin-top: 0;
     padding: 0;
     background-color: rgb(106, 0, 0);
-    color: aliceblue;
+    color: gold;
     border-radius: 20px;
 }
 
+.new-listcate1 p {
+    font-size: 35px;
+}
+
+.new-listcate1 :hover{
+    background-color: rgb(252, 252, 252);
+}
+
+#new-listcate :hover{
+    transform: rotate(3deg);
+}
+
+#new-listcate p {
+    color: chocolate;
+}
+
 .listcate2 {
-    border: thin solid #000;
+    display: flex;
+    flex-direction: column;
+    border: thick solid #ff0000;
     box-shadow: 3px 3px 3px rgba(40, 40 ,40 0.5);
     width: 700px;
-    height: 200px;
+    height: auto;
     justify-items: center;
     margin-top: 0;
-    padding: 0;
-    background-color: rgb(106, 0, 0);
-    color: aliceblue;
-    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(255, 230, 0);
+    color: cadetblue;
+    border-radius: 60px;
 }
 
 .listcate1 :hover {
     background-color: rgb(106, 0, 0);
     padding: 4px;
+    transform: rotate(3deg);
+}
+
+.boy {
+    border-radius: 100px;
+}
+
+#date {
+    text-align: end;
 }
 
 @media only screen and (max-width: 900px){
+    #top {
+        display: flex;
+        flex-direction: column;
+        padding: 26px;
+        text-align: center;
+        margin: 20px;
+    }
+
+    #top header {
+        margin: 20px;
+        background-color: rgb(46, 34, 34);
+        border-radius: 40px;
+    }
+
     nav a {
         display: block;
-        justify-content: center;
+        margin: 20px;
         border-bottom: thin solid #fff;
+    }
 
+    #thebox {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: auto;
+        width: auto;
+        border: solid #000;
+        border-radius: 10px;
+        padding: 5px;
+        box-shadow: 10px 10px #798074;
+    }
+
+    #form-row1 {
+        color: #fff;
+        padding: 10px;
+        background-color: rgb(68, 71, 70);
+        border: thick solid #770012;
+    }
+
+    #thebox1 {
+        text-align: center;
+        justify-self: center;
+        margin: auto;
+        width: auto;
+        border: solid #000;
+        border-radius: 10px;
+        padding: 5px;
+        box-shadow: 10px 10px #798074;
+    }
+
+    #thebox2 {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: auto;
+        width: auto;
+        border: solid #000;
+        border-radius: 10px;
+        padding: 5px;
+        box-shadow: 10px 10px #798074;
+    }
+
+    .listcate2 {
+        width: auto;
+    }
+
+    #thebox4 {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: auto;
+        width: auto;
+        border: solid #000;
+        border-radius: 10px;
+        padding: 5px;
+        box-shadow: 10px 10px #798074;
+    }
+
+    .Artist {
+        justify-self: center;
+        border: 30px solid #000;
+        background-color: aliceblue;
+        box-shadow: 9px 6px 7px rgba(255, 0, 0, 0.5);
+        caption-side: top;
+        border-spacing: 0;
+        border-collapse: collapse;
+        font-size: 8px;
+    }
+
+    .help {
+        color: brown;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 50px;
+    }
+    
+    #help1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-self: center;
+        padding: 40px;
+        width: auto;
+        height: auto;
+        border-radius: 20px;
     }
 
 }

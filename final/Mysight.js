@@ -5,6 +5,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     const password = document.getElementById('pass').value;
     const confirmpassword = document.getElementById('confirmedpass').value;
     const age = document.getElementById('age').value;
+    const search = document.getElementById('search').value;
 
     if (!Username || !Username) {
         alert('Please provide fullname.');
@@ -30,6 +31,11 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         return;
     }
 
+    if (!search || !search) {
+        alert('Please insert your question.');
+        return;
+    }
+
 
     const formData = {
         user: Username, 
@@ -37,6 +43,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         pass: password,
         confirmedpass: confirmpassword,
         age: age,
+        search: search
     }
 
     const xhr = new XMLHttpRequest();
